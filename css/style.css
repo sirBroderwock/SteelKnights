@@ -1,0 +1,526 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IM Fell Double Pica", serif;
+  font-size: 16px;
+}
+
+body {
+  background: linear-gradient(to left, silver, white);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Grid for Index */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  grid-area: main;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer {
+  grid-area: footer;
+  text-align: center;
+}
+
+/* Styles for Index */
+
+.navbar {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+
+.nav__li {
+  padding: 0.5rem;
+}
+
+.nav:hover > li {
+  opacity: 0.5;
+}
+
+.nav:hover > li:hover {
+  opacity: 1;
+}
+
+.header__logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10%;
+  margin-bottom: -12%;
+  width: 50%;
+  max-width: 20rem;
+}
+
+.header__logo--img {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.intro__quote {
+  margin: auto;
+  width: 100%;
+}
+
+.intro__title {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.intro__title--1 {
+  text-align: center;
+  font-size: 110%;
+}
+
+.intro__video {
+  margin-top: 1rem;
+  overflow: visible;
+  position: relative;
+  padding-top: 47%;
+  width: 80%;
+}
+
+.intro__video--iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.link__title {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.link__galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.link__galeria--descripcion {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* Footer Styles */
+
+.footer__social {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Quienes Somos Styles */
+
+.quien__fotos {
+  width: 80vw;
+  max-width: 500px;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.quien__fotos--imagen {
+  width: 100%;
+}
+
+.quien {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.quien__par {
+  border-style: solid;
+  height: auto;
+  margin: 1rem;
+}
+
+.quien__par > p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.quien__header > h2 {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.quien__par > h3 {
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+h3 > u {
+  font-size: inherit;
+}
+
+.parallax {
+  content: "";
+  background-image: url(http://placeimg.com/1000/500/nature);
+  max-width: 1200px;
+  min-height: 30vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-device-width: 1024px) {
+  .parallax {
+    display: none;
+  }
+}
+
+/* Mazos Styles */
+
+.mazos__expla {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.mazos__fotos--imagen {
+  width: 100%;
+}
+
+.mazos__expla--p {
+  justify-content: center;
+}
+
+.mazos__expla--p > p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.mazos__expla--p > h2 {
+  font-size: 1.4rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.mazos__fotos {
+  max-width: 600px;
+  min-width: 150px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* Ejercicios */
+
+#ejercicios__basicos {
+  font-size: 1.3rem;
+}
+
+#ejercicios__legs {
+  font-size: 1.3rem;
+}
+
+.video__ejercicios > h3 {
+  padding: 0.1rem;
+  font-size: 1.1rem;
+}
+
+.video__ejercicios > video {
+  width: 100%;
+  max-width: 500px;
+}
+
+.video__ejercicios {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.ejercicios__section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.ejercicios__section > h2 {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+.ejercicios__wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Contacto Styles */
+
+.contacto {
+  position: relative;
+  max-width: 1024px;
+  margin: 2rem auto;
+}
+
+.contacto::before {
+  content: "";
+  background-image: url(http://placeimg.com/1600/600/nature);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.3;
+}
+
+.contacto__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contacto__div--titulo {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.contacto__div--titulo > h3 {
+  font-size: 1.3rem;
+}
+
+.contacto__div {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  align-items: center;
+}
+
+.contacto__div > label {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.contacto__div > input,
+textarea {
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+.contacto__div--boton {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.contacto__boton {
+  color: black;
+  font-size: 1.2rem;
+  width: 30%;
+  max-width: 150px;
+}
+
+.contacto__boton:hover {
+  background-color: black;
+}
+/* @media for Index and Header */
+
+@media (min-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    grid-template-areas:
+      "header header"
+      "main main"
+      "footer footer";
+  }
+
+  .header {
+    flex-direction: row;
+    align-items: center;
+    margin: 3rem auto;
+    width: 90%;
+  }
+
+  .header__logo {
+    min-width: 200px;
+    align-items: center;
+    width: 50%;
+  }
+
+  .nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .intro__title {
+    font-size: 1.6rem;
+  }
+
+  .intro__title--1 {
+    font-size: 1.4rem;
+    text-align: right;
+  }
+
+  .ejercicios__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contacto__div {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contacto__div > label {
+    width: 10%;
+  }
+
+  .contacto__div > input,
+  textarea {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "main main"
+      "footer footer";
+  }
+
+  a {
+    font-size: 1.2rem;
+  }
+
+  .header {
+    max-width: 1920px;
+    width: 55%;
+  }
+
+  .navbar {
+    margin-top: 3rem;
+    margin-bottom: auto;
+  }
+
+  .intro {
+    flex-direction: column;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro__quote {
+    width: 60%;
+    margin: 1rem;
+  }
+
+  .intro__video {
+    padding-top: 0;
+    width: 60%;
+    height: 30rem;
+  }
+
+  .intro__video--iframe {
+    position: static;
+  }
+
+  .link__galeria {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link__galeria--foto {
+    padding: 1rem;
+  }
+
+  .intro__title {
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 1rem;
+  }
+
+  .intro__title--1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .link__title {
+    font-size: 2.5rem;
+  }
+
+  .quien__par {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .quien__header > h2 {
+    font-size: 1.6rem;
+  }
+
+  .quien__par > p {
+    font-size: 1.3rem;
+  }
+
+  p > b {
+    font-size: inherit;
+  }
+
+  .mazos__expla--p > p {
+    font-size: 1.2rem;
+  }
+  /* Media for Contacto  */
+
+  .ejercicios__wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
