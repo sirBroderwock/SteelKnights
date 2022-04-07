@@ -76,7 +76,7 @@ a {
   margin-right: auto;
   margin-top: -10%;
   margin-bottom: -12%;
-  width: 50%;
+  width: 60%;
   max-width: 20rem;
 }
 
@@ -367,6 +367,7 @@ textarea {
 
 .contacto__boton:hover {
   background-color: black;
+  opacity: 1;
 }
 /* @media for Index and Header */
 
@@ -389,22 +390,22 @@ textarea {
 
   .header__logo {
     min-width: 200px;
-    align-items: center;
+    align-items: right;
     width: 50%;
   }
 
-  .nav {
+  .navbar .nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .intro__title {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 
   .intro__title--1 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     text-align: right;
   }
 
@@ -438,22 +439,23 @@ textarea {
   }
 
   a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .header {
-    max-width: 1920px;
-    width: 55%;
+    max-width: 1200px;
+    width: 80%;
   }
 
   .navbar {
     margin-top: 3rem;
     margin-bottom: auto;
+    width: 50%;
   }
 
   .intro {
     flex-direction: column;
-    max-width: 1920px;
+    max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -484,18 +486,18 @@ textarea {
 
   .intro__title {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     padding: 1rem;
   }
 
   .intro__title--1 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem;
   }
 
   .link__title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .quien__par {
