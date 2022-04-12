@@ -344,6 +344,7 @@ h3 > u {
   right: 0px;
   bottom: 0px;
   opacity: 0.3;
+  z-index: -1;
 }
 
 .contacto__wrapper {
@@ -377,6 +378,7 @@ h3 > u {
 textarea {
   width: 80%;
   font-size: 1.2rem;
+  text-indent: 3px;
 }
 
 .contacto__div--boton {
@@ -392,9 +394,10 @@ textarea {
 }
 
 .contacto__boton:hover {
-  background-color: black;
+  background-color: rgb(212, 208, 208);
   opacity: 1;
 }
+
 /* @media for Index and Header */
 
 @media (min-width: 768px) {
