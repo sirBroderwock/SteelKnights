@@ -1,0 +1,12 @@
+.header__img {
+  width: 300px;
+}
+
+.index__img--link {
+  width: 300px;
+  z-index: 2;
+}
+
+.index__img--p {
+  z-index: -1;
+}
