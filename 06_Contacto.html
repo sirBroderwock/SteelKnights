@@ -72,34 +72,35 @@
      </div>
    </nav>  
  </header>
-  <main>
-      <form action="">
-        <fieldset>
-            <div>
-              <h3>Contacta a nuestro cuartel</h3>
-            </div>          
-            <div>
-              <label for="Nombre">Nombre</label>
-              <input type="text" name="Nombre" id="Nombre" placeholder="Nombre y Apellido">
-            </div>
-            <div>
-              <label for="Correo">Correo</label>
-              <input type="email" name="Correo" id="Correo" placeholder="alguien@ejemplo.com">
-            </div>
-            <div>
-              <label for="Asunto">Asunto</label>
-              <input type="text" name="Asunto" id="Asunto" placeholder="Asunto">
-            </div>
-            <div">
-              <label for="Mensaje">Mensaje</label>
-              <textarea name="Mensaje" id="Mensaje" cols="35" rows="8" placeholder="Escribe algo..."></textarea>
-            </div>
-            <div>
-              <input class="contacto__boton" type="submit" name="Mandar" id="Mandar" value="Mandar">
-            </div>
-        </fieldset>
-      </form>
-  </main>
+<main>
+  <div class="container mb-5">
+    <form action="">
+      <div>
+        <h3>Contacta a nuestro cuartel</h3>
+      </div>          
+      <div class="mt-3 mb-3">
+        <label for="Nombre">Nombre</label>
+        <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Nombre y Apellido">
+      </div>
+      <div class="mt-3 mb-3">
+        <label for="Correo">Correo</label>
+        <input type="email" class="form-control" name="Correo" id="Correo" placeholder="alguien@ejemplo.com">
+      </div>
+      <div class="mt-3 mb-3">
+        <label for="Asunto">Asunto</label>
+        <input type="text" class="form-control" name="Asunto" id="Asunto" placeholder="Asunto">
+      </div>
+      <div class="mt-3 mb-3">
+        <label for="Mensaje">Mensaje</label>
+        <textarea class="form-control" name="Mensaje" id="Mensaje" cols="35" rows="8" placeholder="¿Te interesa pertenecer a los Steel Knights?"></textarea>
+      </div>
+      <div>
+        <input class="btn btn-outline-dark" type="submit" name="Mandar" id="Mandar" value="Mandar">
+      </div>
+    </form>
+  </div>
+
+</main>
   <footer class="bg-dark text-center ">
     <p class="text-light">&copy; 2022 Sergio Rodriguez</p>
 

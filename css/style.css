@@ -5,7 +5,7 @@ body {
 /* Styles for Header */
 
 .header__img {
-  width: 300px;
+  width: 20rem;
 }
 
 /* Styles for Index Pictures including Media Query for Hover */
@@ -56,4 +56,8 @@ body {
   }
 }
 
-/* Styles for Mazos */
+/* Styles for Ejercicios */
+
+.card__width {
+  width: 300px;
+}
