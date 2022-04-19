@@ -5,7 +5,18 @@ body {
 /* Styles for Header */
 
 .header__img {
-  width: 20rem;
+  width: 24rem;
+  animation-name: knights__imagen;
+  animation-duration: 4s;
+  opacity: 100;
+  animation-timing-function: ease-in;
+}
+@keyframes knights__imagen {
+  from {
+    opacity: 0;
+  }
+  to {
+  }
 }
 
 /* Styles for Index Pictures including Media Query for Hover */
