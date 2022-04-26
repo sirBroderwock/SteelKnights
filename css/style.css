@@ -3,7 +3,6 @@ body {
 }
 
 /* Styles for Header */
-
 .header__img {
   width: 24rem;
   animation-name: knights__imagen;
@@ -11,16 +10,13 @@ body {
   opacity: 100;
   animation-timing-function: ease-in;
 }
+
 @keyframes knights__imagen {
   from {
     opacity: 0;
   }
-  to {
-  }
 }
-
 /* Styles for Index Pictures including Media Query for Hover */
-
 .index__img--width {
   width: 300px;
 }
@@ -48,9 +44,7 @@ body {
     transition: opacity 2s;
   }
 }
-
 /* Styles for Quienes Somos including Parallax and Media Query for Parallax */
-
 .parallax {
   background-image: url(http://placeimg.com/1000/500/nature);
   max-width: 1200px;
@@ -66,9 +60,9 @@ body {
     display: none;
   }
 }
-
 /* Styles for Ejercicios */
-
 .card__width {
   width: 300px;
 }
+
+/*# sourceMappingURL=style.css.map */
