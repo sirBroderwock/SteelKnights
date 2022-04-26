@@ -65,4 +65,12 @@ body {
   width: 300px;
 }
 
+/* Styles for Mazos */
+.mazos__expla p {
+  line-height: 2;
+}
+.mazos__expla h5 {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
