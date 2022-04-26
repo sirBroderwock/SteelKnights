@@ -1,0 +1,20 @@
+{
+  "name": "steel-knights_sergio-rodriguez---version-with-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirBroderwock/SteelKnights.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirBroderwock/SteelKnights/issues"
+  },
+  "homepage": "https://github.com/sirBroderwock/SteelKnights#readme"
+}
