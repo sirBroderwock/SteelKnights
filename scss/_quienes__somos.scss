@@ -1,0 +1,17 @@
+/* Styles for Quienes Somos including Parallax and Media Query for Parallax */
+
+.parallax {
+  background-image: url(http://placeimg.com/1000/500/nature);
+  max-width: 1200px;
+  min-height: 30vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-device-width: 992px) {
+  .parallax {
+    display: none;
+  }
+}

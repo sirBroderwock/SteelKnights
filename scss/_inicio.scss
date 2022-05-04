@@ -1,0 +1,29 @@
+/* Styles for Index Pictures including Media Query for Hover */
+
+.index__img--width {
+  width: 300px;
+}
+
+.index__img--link {
+  opacity: 0.5;
+}
+
+@media (hover: hover) {
+  .index__img--link {
+    opacity: 1;
+    transition: opacity 2s;
+  }
+
+  .index__img--width:hover .index__img--link {
+    opacity: 0;
+  }
+
+  .index__img--width:hover .index__img--p {
+    opacity: 1;
+  }
+
+  .index__img--p {
+    opacity: 0;
+    transition: opacity 2s;
+  }
+}

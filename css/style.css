@@ -16,6 +16,10 @@ body {
     opacity: 0;
   }
 }
+.card__width {
+  width: 300px;
+}
+
 /* Styles for Index Pictures including Media Query for Hover */
 .index__img--width {
   width: 300px;
@@ -44,6 +48,13 @@ body {
     transition: opacity 2s;
   }
 }
+.mazos__expla p {
+  line-height: 2;
+}
+.mazos__expla h5 {
+  text-decoration: underline;
+}
+
 /* Styles for Quienes Somos including Parallax and Media Query for Parallax */
 .parallax {
   background-image: url(http://placeimg.com/1000/500/nature);
@@ -59,18 +70,6 @@ body {
   .parallax {
     display: none;
   }
-}
-/* Styles for Ejercicios */
-.card__width {
-  width: 300px;
-}
-
-/* Styles for Mazos */
-.mazos__expla p {
-  line-height: 2;
-}
-.mazos__expla h5 {
-  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+body {
+  background: linear-gradient(to left, silver, white);
+}
+
+/* Styles for Header */
+
+.header__img {
+  width: 24rem;
+  animation-name: knights__imagen;
+  animation-duration: 4s;
+  opacity: 100;
+  animation-timing-function: ease-in;
+}
+@keyframes knights__imagen {
+  from {
+    opacity: 0;
+  }
+  to {
+  }
+}
