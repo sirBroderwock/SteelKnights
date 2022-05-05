@@ -1,8 +1,24 @@
+@import "mixins";
+
 .mazos__expla {
   p {
     line-height: 2;
   }
   h5 {
-    text-decoration: underline;
+    @include important__headers;
   }
+}
+
+.mazos__decoration--basic {
+  background-color: silver;
+}
+
+.mazos__decoration--1st {
+  @extend .mazos__decoration--basic;
+  color: black;
+}
+
+.mazos__decoration--2nd {
+  @extend .mazos__decoration--basic;
+  color: darkslategrey;
 }
