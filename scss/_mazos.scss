@@ -10,15 +10,15 @@
 }
 
 .mazos__decoration--basic {
-  background-color: silver;
+  background-color: map-get($colors, silver1);
 }
 
 .mazos__decoration--1st {
   @extend .mazos__decoration--basic;
-  color: black;
+  color: map-get($colors, black1);
 }
 
 .mazos__decoration--2nd {
   @extend .mazos__decoration--basic;
-  color: darkslategrey;
+  color: map-get($colors, dark__blue);
 }

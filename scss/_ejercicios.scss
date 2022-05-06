@@ -1,3 +1,9 @@
 .card__width {
   width: 300px;
 }
+
+.ejercicios__colores {
+  background-color: map-get($colors, grey1);
+  color: map-get($colors, dark__blue);
+  display: inline-block;
+}

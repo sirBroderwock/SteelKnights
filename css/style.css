@@ -20,7 +20,12 @@ body {
   width: 300px;
 }
 
-/* Container for Primary Video */
+.ejercicios__colores {
+  background-color: #ebebeb;
+  color: #004e98;
+  display: inline-block;
+}
+
 .index__img--1 {
   width: 60rem;
 }
@@ -57,21 +62,21 @@ body {
   line-height: 2;
 }
 .mazos__expla h5 {
-  color: darkslategrey;
+  color: #004e98;
   font-weight: bold;
   text-decoration: underline;
 }
 
 .mazos__decoration--basic, .mazos__decoration--2nd, .mazos__decoration--1st {
-  background-color: silver;
+  background-color: #c0c0c0;
 }
 
 .mazos__decoration--1st {
-  color: black;
+  color: #090c08;
 }
 
 .mazos__decoration--2nd {
-  color: darkslategrey;
+  color: #004e98;
 }
 
 /* Styles for Quienes Somos including Parallax and Media Query for Parallax */
