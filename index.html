@@ -20,8 +20,10 @@
     <!-- Font Link -->
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap"
-      rel="stylesheet"
+      rel="stylesheet" 
     />
+
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&display=swap" rel="stylesheet">
 
     <!-- Social Media Links -->
     <script
@@ -39,7 +41,7 @@
 <body>
   <header>
      <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <div class="header__img">
           <a href="index.html">
@@ -55,7 +57,7 @@
 
         <!-- Navbar Links -->
 
-        <div class="collapse navbar-collapse justify-content-end " id="navbarIndex">
+        <div class="collapse navbar-collapse justify-content-end fs-4" id="navbarIndex">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Inicio</a>
@@ -80,24 +82,66 @@
   <main>
   <!-- Introduction Section -->
   <section >  
-    <div class="container">
-      <div class="row index__container">
-        <div class="col">
-            <img class="img-fluid" src="Images/Resized Images/Mazo2.jpg" alt="10kg Mace">
-          </div>
-          </div>
+    <div class="container-fluid">
+      <div class="row position-relative">
+        <div class="col position-relative">
+          <img class="img-fluid opacity-100" src="Images/Resized Images/Mazo2.jpg" alt="10kg Mace">
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <p class="text-center index__p--intro display-2">We are Steel Knights</p>
+          </div> 
+        </div>
+      </div>
       <div class="row">
-        <div class="col">
-          <div class="index__container--height"> 
-          <p class="text-center display-6 fw-bold margins__index">We are Steel Knights, and our Purpose is Glorious!</p>
+        <div class="col m-5 p-3">
+          <div class=> 
+            <p class="text-center display-2 fw-bold margins__index">We train for glory</p>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col m-5 p-3">
+          <div class=> 
+            <p class="text-center display-2 fw-bold margins__index">We train for success</p>
+          </div>
         </div>
-      </div> 
+      </div>
+      <div class="row">
+        <div class="col m-5 p-3">
+          <div class=> 
+            <p class="text-center display-2 fw-bold margins__index">We train for victory</p>
+          </div>
+        </div>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+
+
+      
       <div class="row">
           <div class="col">
             <div class="ratio ratio-21x9" >
               <iframe
-                src="https://youtube.com/embed/?start=1&autoplay=1&controls=1&info=0&playlist=1q3QwPeSaX0&loop=1&mute=1&modestbranding=1&rel=0"
+                src="https://youtube.com/embed/dHilh3tIjjA?feature=share"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -108,23 +152,23 @@
       </div>
      
       <div class="row">
-        <div class="col">
-
+        <div class="col m-5 p-3">
+          <figure class="text-center">
+            <blockquote class="blockquote">
+              <p class="display-5">“Success usually comes to those who are too busy to be looking for it.”</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Henry David Thoreau
+            </figcaption>
+            </figure> 
         </div>
       </div>
     </div>
-    <figure class="text-center ">
-      <blockquote class="blockquote">
-        <p>“Success usually comes to those who are too busy to be looking for it.”</p>
-      </blockquote>
-      <figcaption class="blockquote-footer">
-        Henry David Thoreau
-      </figcaption>
-      </figure> 
+  
     </section>
   <!-- Link Section -->
     <section>
-      <div class="container mb-4">
+      <div class="container-fluid mb-4">
         <h2 class="text-center display-3 mt-4"> Join the Knights! </h2>
         <div class="row mt-4 justify-content-center">
           <div class="col">

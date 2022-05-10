@@ -1,3 +1,7 @@
+* {
+  font-family: "IM Fell Double Pica", serif;
+}
+
 body {
   background: linear-gradient(to left, silver, white);
 }
@@ -16,6 +20,10 @@ body {
     opacity: 0;
   }
 }
+.navbar__color {
+  color: #090c08;
+}
+
 .card__width {
   width: 300px;
 }
@@ -32,7 +40,7 @@ body {
 
 /* Styles for Index Pictures including Media Query for Hover */
 .index__img--width {
-  width: 300px;
+  width: 50%;
 }
 
 .index__img--link {
@@ -58,6 +66,11 @@ body {
     transition: opacity 2s;
   }
 }
+/* Intro Styles */
+.index__p--intro {
+  color: #ebebeb;
+}
+
 .mazos__expla p {
   line-height: 2;
 }
