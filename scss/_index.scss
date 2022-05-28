@@ -29,6 +29,8 @@
   .index__img--p {
     opacity: 0;
     transition: opacity 2s;
+    cursor: pointer;
+    color: map-get($colors, black1);
   }
 }
 

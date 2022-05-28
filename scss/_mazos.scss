@@ -20,5 +20,5 @@
 
 .mazos__decoration--2nd {
   @extend .mazos__decoration--basic;
-  color: map-get($colors, dark__blue);
+  color: map-get($colors, black1);
 }

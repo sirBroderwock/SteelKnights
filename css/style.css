@@ -21,7 +21,7 @@ body {
   }
 }
 .navbar__color {
-  color: #090c08;
+  color: #09080c;
 }
 
 .card__width {
@@ -30,7 +30,7 @@ body {
 
 .ejercicios__colores {
   background-color: #ebebeb;
-  color: #004e98;
+  color: #02294e;
   display: inline-block;
 }
 
@@ -64,6 +64,8 @@ body {
   .index__img--p {
     opacity: 0;
     transition: opacity 2s;
+    cursor: pointer;
+    color: #09080c;
   }
 }
 /* Intro Styles */
@@ -75,7 +77,7 @@ body {
   line-height: 2;
 }
 .mazos__expla h2 {
-  color: #004e98;
+  color: #02294e;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -85,11 +87,11 @@ body {
 }
 
 .mazos__decoration--1st {
-  color: #090c08;
+  color: #09080c;
 }
 
 .mazos__decoration--2nd {
-  color: #004e98;
+  color: #09080c;
 }
 
 /* Styles for Quienes Somos including Parallax and Media Query for Parallax */
@@ -109,7 +111,7 @@ body {
   }
 }
 .quien__h1 {
-  color: #004e98;
+  color: #02294e;
 }
 
 /*# sourceMappingURL=style.css.map */
