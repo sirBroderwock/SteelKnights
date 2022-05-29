@@ -11,7 +11,7 @@ body {
 /* Styles for Header */
 
 .header__img {
-  width: 24rem;
+  width: 20rem;
   animation-name: knights__imagen;
   animation-duration: 4s;
   opacity: 100;
@@ -25,6 +25,15 @@ body {
   }
 }
 
-.navbar__color {
+.navbar {
   color: map-get($colors, black1);
 }
+
+/*
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: fade-out(map-get($colors, silver1), 0);
+  }
+}
+
+*/

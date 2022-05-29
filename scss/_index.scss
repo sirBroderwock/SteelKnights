@@ -9,10 +9,14 @@
 }
 
 .index__img--link {
-  opacity: 0.5;
+  opacity: 1;
 }
 
-@media (hover: hover) {
+.index__img--p {
+  visibility: hidden;
+}
+
+@media screen and (hover: hover) and (min-width: 1100px) {
   .index__img--link {
     opacity: 1;
     transition: opacity 2s;
@@ -27,6 +31,7 @@
   }
 
   .index__img--p {
+    visibility: visible;
     opacity: 0;
     transition: opacity 2s;
     cursor: pointer;
@@ -39,3 +44,5 @@
 .index__p--intro {
   color: map-get($colors, grey1);
 }
+
+/* Media Index */

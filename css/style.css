@@ -8,7 +8,7 @@ body {
 
 /* Styles for Header */
 .header__img {
-  width: 24rem;
+  width: 20rem;
   animation-name: knights__imagen;
   animation-duration: 4s;
   opacity: 100;
@@ -20,10 +20,18 @@ body {
     opacity: 0;
   }
 }
-.navbar__color {
+.navbar {
   color: #09080c;
 }
 
+/*
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: fade-out(map-get($colors, silver1), 0);
+  }
+}
+
+*/
 .card__width {
   width: 300px;
 }
@@ -44,10 +52,14 @@ body {
 }
 
 .index__img--link {
-  opacity: 0.5;
+  opacity: 1;
 }
 
-@media (hover: hover) {
+.index__img--p {
+  visibility: hidden;
+}
+
+@media screen and (hover: hover) and (min-width: 1100px) {
   .index__img--link {
     opacity: 1;
     transition: opacity 2s;
@@ -62,6 +74,7 @@ body {
   }
 
   .index__img--p {
+    visibility: visible;
     opacity: 0;
     transition: opacity 2s;
     cursor: pointer;
@@ -73,6 +86,7 @@ body {
   color: #ebebeb;
 }
 
+/* Media Index */
 .mazos__expla p {
   line-height: 2;
 }
